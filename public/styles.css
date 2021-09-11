@@ -58,3 +58,23 @@ textarea {
     width: 100%;
     display: inline-block;
 }
+
+.logo:hover {
+    text-decoration: underline;
+}
+
+.buttons {
+    display: flex;
+    margin-top: .5rem;
+    justify-content: center;
+}
+
+.buttons * + * {
+    margin-left: .25rem;
+}
+
+.bnt {
+    cursor: pointer;
+    background: none;
+    border: 1px solid #002b36;
+}
