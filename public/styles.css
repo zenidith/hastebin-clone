@@ -71,6 +71,7 @@ textarea {
 
 .buttons * + * {
     margin-left: .25rem;
+    
 }
 
 .bnt {
